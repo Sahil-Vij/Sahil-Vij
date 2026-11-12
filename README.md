@@ -26,8 +26,11 @@ Most of this is in private company repos, so here's what each system does:
 
 ## Building in public
 
-**[hookrelay](https://github.com/Sahil-Vij/hookrelay):** a self-hosted webhook inbox with signature checks, deduplication
-and retries that survive restarts. A React dashboard is next.
+- **[tradesim](https://github.com/Sahil-Vij/tradesim):** paper trading for stocks and crypto at live market prices.
+  Built around a double-entry ledger with integer money, idempotent orders and limit, stop-loss and bracket orders run
+  by a job queue. Node, Express, PostgreSQL, Redis, React. In progress, shipping one pull request a day.
+- **[hookrelay](https://github.com/Sahil-Vij/hookrelay):** a self-hosted webhook inbox with signature checks,
+  deduplication, retries that survive restarts, and a React dashboard to inspect and replay any event.
 
 ## Stack
 
